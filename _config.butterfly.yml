@@ -1,0 +1,148 @@
+# 主题配置文件
+# Butterfly主题配置
+
+# 网站图标
+favicon: /img/favicon.png
+
+# 头像
+avatar:
+  img: /img/avatar.png
+  effect: true
+
+# 社交链接
+social:
+  github: https://github.com/legeling || fab fa-github
+  email: your-email@example.com || fas fa-envelope
+  rss: /atom.xml || fas fa-rss
+
+# 菜单
+menu:
+  文章: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
+
+# 代码高亮
+highlight_theme: mac
+highlight_copy: true
+highlight_lang: true
+highlight_shrink: false
+
+# 搜索
+local_search:
+  enable: true
+  labels:
+    input_placeholder: 搜索文章
+    hits_empty: "找不到您查询的内容：${query}"
+
+# 评论系统
+comments:
+  use: Disqus
+  shortname: your-disqus-shortname
+
+# 统计
+busuanzi:
+  site_uv: true
+  site_pv: true
+  page_pv: true
+
+# 页面动画
+animate:
+  enable: true
+  title: true
+  content: true
+
+# 侧边栏
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+
+# 页脚
+footer:
+  owner:
+    enable: true
+    since: 2024
+  custom_text: Hi, Welcome to my blog!
+  icp:
+    enable: false
+    url: 
+  security_icp:
+    enable: false
+    url: 
+
+# 背景
+background: 
+  enable: true
+  type: image
+  image: /img/bg.jpg
+  opacity: 0.8
+
+# 字体
+font:
+  family: Noto Sans SC, sans-serif
+  size: 16px
+
+# 颜色
+color:
+  primary: '#49b1f5'
+  paginator: '#00c4b6'
+  button_hover: '#FF7242'
+  text_selection: '#00c4b6'
+  link_color: '#99a9bf'
+  meta_color: '#858585'
+  hr_color: '#A4D8FA'
+  code_foreground: '#F47466'
+  code_background: 'rgba(27, 31, 35, .05)'
+  toc_color: '#00c4b6'
+  blockquote_padding_color: '#49b1f5'
+  blockquote_background_color: '#49b1f5'
+
+# 首页设置
+index_img_height: 60vh
+index_img_parallax: true
+
+# 文章页面
+post:
+  toc: true
+  toc_number: true
+  copyright: true
+  meta_icon: true
+  reward:
+    enable: true
+    QR_code:
+      - img: /img/wechat.jpg
+        link: 
+        name: wechat
+      - img: /img/alipay.jpg
+        link: 
+        name: alipay
+
+# 标签页面
+tag:
+  color: true
+  one_tap: true
+
+# 分类页面
+category:
+  color: true
+  one_tap: true
+
+# 归档页面
+archive:
+  type: monthly
+  format: MMMM YYYY
+  order: -1
+
+# 404页面
+error_404:
+  enable: true
+  subtitle: 页面走丢了
+  background: /img/404.jpg 
